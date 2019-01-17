@@ -65,7 +65,7 @@ public class Program {
             if (paramMap.containsKey("-path")) {
                 path = paramMap.get("-path");
             } else {
-                System.err.println("Invalid version parameter!");
+                System.err.println("Invalid path parameter!");
                 printErrorHelp();
                 return;
             }
@@ -73,7 +73,7 @@ public class Program {
             if (paramMap.containsKey("-version")) {
                 version = paramMap.get("-version");
             } else {
-                System.err.println("Invalid path parameter!");
+                System.err.println("Invalid version parameter!");
                 printErrorHelp();
                 return;
             }
